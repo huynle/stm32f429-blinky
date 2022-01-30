@@ -1,0 +1,17 @@
+/*
+
+# GIT
+!.gitignore
+
+# PROJECT
+!Core
+!Drivers
+!CubeMX
+!Blinky
+!.mxproject
+!STM32-project-template.ioc
+
+# TOOLS
+!Makefile
+!CMakeLists.txt
+!gcc-arm-none-eabi.cmake
