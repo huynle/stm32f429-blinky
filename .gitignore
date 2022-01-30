@@ -6,6 +6,8 @@
 # PROJECT
 !Core
 !Drivers
+!Middlewares
+!USB_HOST
 !CubeMX
 !Blinky
 !.mxproject
