@@ -9,9 +9,13 @@
 !CubeMX
 !Blinky
 !.mxproject
-!STM32-project-template.ioc
+!*.ioc
+!*.ld
+!*.s
 
 # TOOLS
 !Makefile
 !CMakeLists.txt
+!.clang-format
+!default.nix
 !gcc-arm-none-eabi.cmake
