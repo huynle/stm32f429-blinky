@@ -2,6 +2,7 @@
 
 BUILD_DIR := build
 BUILD_TYPE ?= Debug
+TARGET = stm32-blinky
 
 all: build
 
@@ -15,7 +16,7 @@ ${BUILD_DIR}/Makefile:
 cmake: ${BUILD_DIR}/Makefile
 
 flash:
-	st-flash --reset write ${BUILD_DIR}/stm32-blinky.bin 0x08000000
+	st-flash --reset write ${BUILD_DIR}/${TARGET}.bin 0x08000000
 
 build: cmake
 	$(MAKE) -C ${BUILD_DIR} --no-print-directory

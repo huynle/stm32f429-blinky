@@ -87,7 +87,8 @@ C_SOURCES =  \
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c \
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c \
 ../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c \
-../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c  
+../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c \
+../Blinky/projectMain.cpp
 
 # ASM sources
 ASM_SOURCES =  \
@@ -156,7 +157,8 @@ C_INCLUDES =  \
 -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc \
 -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc \
 -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include \
--I../Drivers/CMSIS/Include
+-I../Drivers/CMSIS/Include \
+-I../
 
 
 # compile gcc flags

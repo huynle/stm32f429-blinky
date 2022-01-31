@@ -22,7 +22,7 @@
 #define __USBH_PLATFORM_H__
 
 #ifdef __cplusplus
-extern "C" {
+ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
@@ -39,3 +39,4 @@ void MX_DriverVbusHS(uint8_t state);
 #endif
 
 #endif /* __USBH_PLATFORM_H__ */
+

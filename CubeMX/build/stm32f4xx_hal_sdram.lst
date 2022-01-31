@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccLYLNGj.s 			page 1
+ARM GAS  /tmp/ccr4yMBw.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
   27:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****             base register instance for NOR or SDRAM device 
   28:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****              
   29:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****    (#) Declare a FMC_SDRAM_TimingTypeDef structure; for example:
-ARM GAS  /tmp/ccLYLNGj.s 			page 2
+ARM GAS  /tmp/ccr4yMBw.s 			page 2
 
 
   30:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****           FMC_SDRAM_TimingTypeDef  Timing;
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
   84:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****       If not, MspInit or MspDeInit are not null, the @ref HAL_SDRAM_Init and @ref HAL_SDRAM_DeInit
   85:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****       keep and use the user MspInit/MspDeInit callbacks (registered beforehand)
   86:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** 
-ARM GAS  /tmp/ccLYLNGj.s 			page 3
+ARM GAS  /tmp/ccr4yMBw.s 			page 3
 
 
   87:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****       Callbacks can be registered/unregistered in READY state only.
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  141:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   *
  142:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   @verbatim    
  143:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   ==============================================================================
-ARM GAS  /tmp/ccLYLNGj.s 			page 4
+ARM GAS  /tmp/ccr4yMBw.s 			page 4
 
 
  144:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****            ##### SDRAM Initialization and de_initialization functions #####
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  198:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
  199:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Update the SDRAM controller state */
  200:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   hsdram->State = HAL_SDRAM_STATE_READY;
-ARM GAS  /tmp/ccLYLNGj.s 			page 5
+ARM GAS  /tmp/ccr4yMBw.s 			page 5
 
 
  201:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  255:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @param  hsdram pointer to a SDRAM_HandleTypeDef structure that contains
  256:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   *                the configuration information for SDRAM module.
  257:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @retval None
-ARM GAS  /tmp/ccLYLNGj.s 			page 6
+ARM GAS  /tmp/ccr4yMBw.s 			page 6
 
 
  258:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  312:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** __weak void HAL_SDRAM_DMA_XferCpltCallback(DMA_HandleTypeDef *hdma)
  313:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** {
   30              		.loc 1 313 1 view -0
-ARM GAS  /tmp/ccLYLNGj.s 			page 7
+ARM GAS  /tmp/ccr4yMBw.s 			page 7
 
 
   31              		.cfi_startproc
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
   68              		.thumb_func
   69              		.fpu fpv4-sp-d16
   71              	HAL_SDRAM_MspInit:
-ARM GAS  /tmp/ccLYLNGj.s 			page 8
+ARM GAS  /tmp/ccr4yMBw.s 			page 8
 
 
   72              	.LVL2:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  118              	.LVL4:
  119              	.L6:
  191:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
-ARM GAS  /tmp/ccLYLNGj.s 			page 9
+ARM GAS  /tmp/ccr4yMBw.s 			page 9
 
 
  120              		.loc 1 191 3 is_stmt 1 view .LVU16
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  166:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
  162              		.loc 1 166 12 view .LVU29
  163 003c 0120     		movs	r0, #1
-ARM GAS  /tmp/ccLYLNGj.s 			page 10
+ARM GAS  /tmp/ccr4yMBw.s 			page 10
 
 
  164              	.LVL10:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  215 0004 FFF7FEFF 		bl	HAL_SDRAM_MspDeInit
  216              	.LVL13:
  227:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** 
-ARM GAS  /tmp/ccLYLNGj.s 			page 11
+ARM GAS  /tmp/ccr4yMBw.s 			page 11
 
 
  217              		.loc 1 227 3 view .LVU37
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  263              		.thumb
  264              		.thumb_func
  265              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccLYLNGj.s 			page 12
+ARM GAS  /tmp/ccr4yMBw.s 			page 12
 
 
  267              	HAL_SDRAM_IRQHandler:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  314              	.LFB138:
  334:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** /**
  335:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @}
-ARM GAS  /tmp/ccLYLNGj.s 			page 13
+ARM GAS  /tmp/ccr4yMBw.s 			page 13
 
 
  336:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   */
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  367:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
  368:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Check the SDRAM controller state */
  369:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   if(hsdram->State == HAL_SDRAM_STATE_BUSY)
-ARM GAS  /tmp/ccLYLNGj.s 			page 14
+ARM GAS  /tmp/ccr4yMBw.s 			page 14
 
 
  338              		.loc 1 369 3 discriminator 2 view .LVU66
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  387:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   __HAL_UNLOCK(hsdram);
  373              		.loc 1 387 3 view .LVU80
  374              		.loc 1 387 3 view .LVU81
-ARM GAS  /tmp/ccLYLNGj.s 			page 15
+ARM GAS  /tmp/ccr4yMBw.s 			page 15
 
 
  375 003a 0020     		movs	r0, #0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  413              		.loc 1 404 3 view .LVU89
  405:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
  406:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Process Locked */
-ARM GAS  /tmp/ccLYLNGj.s 			page 16
+ARM GAS  /tmp/ccr4yMBw.s 			page 16
 
 
  407:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   __HAL_LOCK(hsdram);
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  450 0026 12F801CB 		ldrb	ip, [r2], #1	@ zero_extendqisi2
  451              	.LVL33:
  452              		.loc 1 424 36 discriminator 2 view .LVU106
-ARM GAS  /tmp/ccLYLNGj.s 			page 17
+ARM GAS  /tmp/ccr4yMBw.s 			page 17
 
 
  453 002a 01F801CB 		strb	ip, [r1], #1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  494              		.thumb
  495              		.thumb_func
  496              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccLYLNGj.s 			page 18
+ARM GAS  /tmp/ccr4yMBw.s 			page 18
 
 
  498              	HAL_SDRAM_Read_16b:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  455:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
  456:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   else if(hsdram->State == HAL_SDRAM_STATE_PRECHARGED)
  531              		.loc 1 456 8 is_stmt 1 view .LVU131
-ARM GAS  /tmp/ccLYLNGj.s 			page 19
+ARM GAS  /tmp/ccr4yMBw.s 			page 19
 
 
  532              		.loc 1 456 17 is_stmt 0 view .LVU132
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  567 0040 5DF804FB 		ldr	pc, [sp], #4
  568              	.LVL47:
  569              	.L43:
-ARM GAS  /tmp/ccLYLNGj.s 			page 20
+ARM GAS  /tmp/ccr4yMBw.s 			page 20
 
 
  449:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  608 000c 0120     		movs	r0, #1
  609 000e 8EF82D00 		strb	r0, [lr, #45]
  610              		.loc 1 490 3 discriminator 2 view .LVU156
-ARM GAS  /tmp/ccLYLNGj.s 			page 21
+ARM GAS  /tmp/ccr4yMBw.s 			page 21
 
 
  491:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  645              	.LVL57:
  646              	.L48:
  505:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   {
-ARM GAS  /tmp/ccLYLNGj.s 			page 22
+ARM GAS  /tmp/ccr4yMBw.s 			page 22
 
 
  647              		.loc 1 505 20 discriminator 1 view .LVU172
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  523:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @param  pDstBuffer Pointer to destination buffer  
  524:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @param  BufferSize Size of the buffer to read from memory
  525:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @retval HAL status
-ARM GAS  /tmp/ccLYLNGj.s 			page 23
+ARM GAS  /tmp/ccr4yMBw.s 			page 23
 
 
  526:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   */
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  540:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   {
  541:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****     return  HAL_ERROR; 
  726              		.loc 1 541 13 view .LVU197
-ARM GAS  /tmp/ccLYLNGj.s 			page 24
+ARM GAS  /tmp/ccr4yMBw.s 			page 24
 
 
  727 0026 0120     		movs	r0, #1
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  763 0044 0220     		movs	r0, #2
  764              		.loc 1 556 1 view .LVU211
  765 0046 7047     		bx	lr
-ARM GAS  /tmp/ccLYLNGj.s 			page 25
+ARM GAS  /tmp/ccr4yMBw.s 			page 25
 
 
  766              		.cfi_endproc
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  802              		.loc 1 576 15 is_stmt 0 discriminator 2 view .LVU222
  803 0010 9CF82C00 		ldrb	r0, [ip, #44]	@ zero_extendqisi2
  804 0014 C0B2     		uxtb	r0, r0
-ARM GAS  /tmp/ccLYLNGj.s 			page 26
+ARM GAS  /tmp/ccr4yMBw.s 			page 26
 
 
  805              	.LVL73:
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  840 0030 F8D1     		bne	.L67
  593:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
  594:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
-ARM GAS  /tmp/ccLYLNGj.s 			page 27
+ARM GAS  /tmp/ccr4yMBw.s 			page 27
 
 
  595:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Process Unlocked */
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  596:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
  882              		.loc 1 596 3 is_stmt 1 view .LVU251
  598:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** }
-ARM GAS  /tmp/ccLYLNGj.s 			page 28
+ARM GAS  /tmp/ccr4yMBw.s 			page 28
 
 
  883              		.loc 1 598 3 view .LVU252
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  923 000c 0120     		movs	r0, #1
  924 000e 84F82D00 		strb	r0, [r4, #45]
  925              		.loc 1 615 3 discriminator 2 view .LVU261
-ARM GAS  /tmp/ccLYLNGj.s 			page 29
+ARM GAS  /tmp/ccr4yMBw.s 			page 29
 
 
  616:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  958 0032 0020     		movs	r0, #0
  959 0034 84F82D00 		strb	r0, [r4, #45]
  960              		.loc 1 637 3 view .LVU277
-ARM GAS  /tmp/ccLYLNGj.s 			page 30
+ARM GAS  /tmp/ccr4yMBw.s 			page 30
 
 
  638:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  647:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @param  pSrcBuffer Pointer to source buffer to write  
  648:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @param  BufferSize Size of the buffer to write to memory
  649:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   * @retval HAL status
-ARM GAS  /tmp/ccLYLNGj.s 			page 31
+ARM GAS  /tmp/ccr4yMBw.s 			page 31
 
 
  650:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   */
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1041              		.loc 1 665 8 is_stmt 1 view .LVU298
  1042              		.loc 1 665 47 is_stmt 0 view .LVU299
  1043 0020 0438     		subs	r0, r0, #4
-ARM GAS  /tmp/ccLYLNGj.s 			page 32
+ARM GAS  /tmp/ccr4yMBw.s 			page 32
 
 
  1044              	.LVL104:
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1081              	.LVL108:
  1082              	.L89:
  663:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
-ARM GAS  /tmp/ccLYLNGj.s 			page 33
+ARM GAS  /tmp/ccr4yMBw.s 			page 33
 
 
  1083              		.loc 1 663 12 view .LVU315
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  704:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
  705:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** 
  706:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Process locked */
-ARM GAS  /tmp/ccLYLNGj.s 			page 34
+ARM GAS  /tmp/ccr4yMBw.s 			page 34
 
 
  707:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   __HAL_LOCK(hsdram);
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  761:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   *        This parameter can be one of the following values:
  762:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   *          @arg @ref HAL_SDRAM_MSP_INIT_CB_ID       SDRAM MspInit callback ID
  763:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   *          @arg @ref HAL_SDRAM_MSP_DEINIT_CB_ID     SDRAM MspDeInit callback ID
-ARM GAS  /tmp/ccLYLNGj.s 			page 35
+ARM GAS  /tmp/ccr4yMBw.s 			page 35
 
 
  764:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   *          @arg @ref HAL_SDRAM_REFRESH_ERR_CB_ID    SDRAM Refresh Error callback ID
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  818:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
  819:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   else
  820:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   {
-ARM GAS  /tmp/ccLYLNGj.s 			page 36
+ARM GAS  /tmp/ccr4yMBw.s 			page 36
 
 
  821:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****     /* update return status */
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  875:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
  876:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** 
  877:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Release Lock */
-ARM GAS  /tmp/ccLYLNGj.s 			page 37
+ARM GAS  /tmp/ccr4yMBw.s 			page 37
 
 
  878:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   __HAL_UNLOCK(hsdram);
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  912:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   {
  913:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****     return HAL_BUSY;
  914:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   }
-ARM GAS  /tmp/ccLYLNGj.s 			page 38
+ARM GAS  /tmp/ccr4yMBw.s 			page 38
 
 
  915:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1169              		.cfi_startproc
  1170              		@ args = 0, pretend = 0, frame = 0
  1171              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccLYLNGj.s 			page 39
+ARM GAS  /tmp/ccr4yMBw.s 			page 39
 
 
  1172              		.loc 1 935 1 is_stmt 0 view .LVU335
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1209              	.LFE147:
  1211              		.section	.text.HAL_SDRAM_SendCommand,"ax",%progbits
  1212              		.align	1
-ARM GAS  /tmp/ccLYLNGj.s 			page 40
+ARM GAS  /tmp/ccr4yMBw.s 			page 40
 
 
  1213              		.global	HAL_SDRAM_SendCommand
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  972:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
  973:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Send SDRAM command */
  974:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   FMC_SDRAM_SendCommand(hsdram->Instance, Command, Timeout);
-ARM GAS  /tmp/ccLYLNGj.s 			page 41
+ARM GAS  /tmp/ccr4yMBw.s 			page 41
 
 
  1249              		.loc 1 974 3 is_stmt 1 view .LVU357
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1289              	HAL_SDRAM_ProgramRefreshRate:
  1290              	.LVL123:
  1291              	.LFB149:
-ARM GAS  /tmp/ccLYLNGj.s 			page 42
+ARM GAS  /tmp/ccr4yMBw.s 			page 42
 
 
  988:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** 
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1322 001a 0123     		movs	r3, #1
  1323 001c 84F82C30 		strb	r3, [r4, #44]
 1012:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
-ARM GAS  /tmp/ccLYLNGj.s 			page 43
+ARM GAS  /tmp/ccr4yMBw.s 			page 43
 
 
 1013:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   return HAL_OK;   
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
 1028:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****     return HAL_BUSY;
 1029:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   } 
 1030:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   
-ARM GAS  /tmp/ccLYLNGj.s 			page 44
+ARM GAS  /tmp/ccr4yMBw.s 			page 44
 
 
 1031:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   /* Update the SDRAM state */
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1401              		@ frame_needed = 0, uses_anonymous_args = 0
  1402              		.loc 1 1050 1 is_stmt 0 view .LVU399
  1403 0000 08B5     		push	{r3, lr}
-ARM GAS  /tmp/ccLYLNGj.s 			page 45
+ARM GAS  /tmp/ccr4yMBw.s 			page 45
 
 
  1404              	.LCFI19:
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
 1079:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ****   */
 1080:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** HAL_SDRAM_StateTypeDef HAL_SDRAM_GetState(SDRAM_HandleTypeDef *hsdram)
 1081:../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c **** {
-ARM GAS  /tmp/ccLYLNGj.s 			page 46
+ARM GAS  /tmp/ccr4yMBw.s 			page 46
 
 
  1432              		.loc 1 1081 1 is_stmt 1 view -0
@@ -2725,59 +2725,59 @@ ARM GAS  /tmp/ccLYLNGj.s 			page 1
  1452              		.file 6 "../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
  1453              		.file 7 "../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmc.h"
  1454              		.file 8 "../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sdram.h"
-ARM GAS  /tmp/ccLYLNGj.s 			page 47
+ARM GAS  /tmp/ccr4yMBw.s 			page 47
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_hal_sdram.c
-     /tmp/ccLYLNGj.s:18     .text.HAL_SDRAM_DMA_XferCpltCallback:0000000000000000 $t
-     /tmp/ccLYLNGj.s:26     .text.HAL_SDRAM_DMA_XferCpltCallback:0000000000000000 HAL_SDRAM_DMA_XferCpltCallback
-     /tmp/ccLYLNGj.s:42     .text.HAL_SDRAM_DMA_XferErrorCallback:0000000000000000 $t
-     /tmp/ccLYLNGj.s:49     .text.HAL_SDRAM_DMA_XferErrorCallback:0000000000000000 HAL_SDRAM_DMA_XferErrorCallback
-     /tmp/ccLYLNGj.s:64     .text.HAL_SDRAM_MspInit:0000000000000000 $t
-     /tmp/ccLYLNGj.s:71     .text.HAL_SDRAM_MspInit:0000000000000000 HAL_SDRAM_MspInit
-     /tmp/ccLYLNGj.s:86     .text.HAL_SDRAM_Init:0000000000000000 $t
-     /tmp/ccLYLNGj.s:93     .text.HAL_SDRAM_Init:0000000000000000 HAL_SDRAM_Init
-     /tmp/ccLYLNGj.s:171    .text.HAL_SDRAM_MspDeInit:0000000000000000 $t
-     /tmp/ccLYLNGj.s:178    .text.HAL_SDRAM_MspDeInit:0000000000000000 HAL_SDRAM_MspDeInit
-     /tmp/ccLYLNGj.s:193    .text.HAL_SDRAM_DeInit:0000000000000000 $t
-     /tmp/ccLYLNGj.s:200    .text.HAL_SDRAM_DeInit:0000000000000000 HAL_SDRAM_DeInit
-     /tmp/ccLYLNGj.s:238    .text.HAL_SDRAM_RefreshErrorCallback:0000000000000000 $t
-     /tmp/ccLYLNGj.s:245    .text.HAL_SDRAM_RefreshErrorCallback:0000000000000000 HAL_SDRAM_RefreshErrorCallback
-     /tmp/ccLYLNGj.s:260    .text.HAL_SDRAM_IRQHandler:0000000000000000 $t
-     /tmp/ccLYLNGj.s:267    .text.HAL_SDRAM_IRQHandler:0000000000000000 HAL_SDRAM_IRQHandler
-     /tmp/ccLYLNGj.s:305    .text.HAL_SDRAM_Read_8b:0000000000000000 $t
-     /tmp/ccLYLNGj.s:312    .text.HAL_SDRAM_Read_8b:0000000000000000 HAL_SDRAM_Read_8b
-     /tmp/ccLYLNGj.s:391    .text.HAL_SDRAM_Write_8b:0000000000000000 $t
-     /tmp/ccLYLNGj.s:398    .text.HAL_SDRAM_Write_8b:0000000000000000 HAL_SDRAM_Write_8b
-     /tmp/ccLYLNGj.s:491    .text.HAL_SDRAM_Read_16b:0000000000000000 $t
-     /tmp/ccLYLNGj.s:498    .text.HAL_SDRAM_Read_16b:0000000000000000 HAL_SDRAM_Read_16b
-     /tmp/ccLYLNGj.s:577    .text.HAL_SDRAM_Write_16b:0000000000000000 $t
-     /tmp/ccLYLNGj.s:584    .text.HAL_SDRAM_Write_16b:0000000000000000 HAL_SDRAM_Write_16b
-     /tmp/ccLYLNGj.s:677    .text.HAL_SDRAM_Read_32b:0000000000000000 $t
-     /tmp/ccLYLNGj.s:684    .text.HAL_SDRAM_Read_32b:0000000000000000 HAL_SDRAM_Read_32b
-     /tmp/ccLYLNGj.s:770    .text.HAL_SDRAM_Write_32b:0000000000000000 $t
-     /tmp/ccLYLNGj.s:777    .text.HAL_SDRAM_Write_32b:0000000000000000 HAL_SDRAM_Write_32b
-     /tmp/ccLYLNGj.s:890    .text.HAL_SDRAM_Read_DMA:0000000000000000 $t
-     /tmp/ccLYLNGj.s:897    .text.HAL_SDRAM_Read_DMA:0000000000000000 HAL_SDRAM_Read_DMA
-     /tmp/ccLYLNGj.s:987    .text.HAL_SDRAM_Read_DMA:0000000000000048 $d
-     /tmp/ccLYLNGj.s:993    .text.HAL_SDRAM_Write_DMA:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1000   .text.HAL_SDRAM_Write_DMA:0000000000000000 HAL_SDRAM_Write_DMA
-     /tmp/ccLYLNGj.s:1098   .text.HAL_SDRAM_Write_DMA:0000000000000050 $d
-     /tmp/ccLYLNGj.s:1104   .text.HAL_SDRAM_WriteProtection_Enable:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1111   .text.HAL_SDRAM_WriteProtection_Enable:0000000000000000 HAL_SDRAM_WriteProtection_Enable
-     /tmp/ccLYLNGj.s:1158   .text.HAL_SDRAM_WriteProtection_Disable:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1165   .text.HAL_SDRAM_WriteProtection_Disable:0000000000000000 HAL_SDRAM_WriteProtection_Disable
-     /tmp/ccLYLNGj.s:1212   .text.HAL_SDRAM_SendCommand:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1219   .text.HAL_SDRAM_SendCommand:0000000000000000 HAL_SDRAM_SendCommand
-     /tmp/ccLYLNGj.s:1282   .text.HAL_SDRAM_ProgramRefreshRate:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1289   .text.HAL_SDRAM_ProgramRefreshRate:0000000000000000 HAL_SDRAM_ProgramRefreshRate
-     /tmp/ccLYLNGj.s:1335   .text.HAL_SDRAM_SetAutoRefreshNumber:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1342   .text.HAL_SDRAM_SetAutoRefreshNumber:0000000000000000 HAL_SDRAM_SetAutoRefreshNumber
-     /tmp/ccLYLNGj.s:1388   .text.HAL_SDRAM_GetModeStatus:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1395   .text.HAL_SDRAM_GetModeStatus:0000000000000000 HAL_SDRAM_GetModeStatus
-     /tmp/ccLYLNGj.s:1422   .text.HAL_SDRAM_GetState:0000000000000000 $t
-     /tmp/ccLYLNGj.s:1429   .text.HAL_SDRAM_GetState:0000000000000000 HAL_SDRAM_GetState
+     /tmp/ccr4yMBw.s:18     .text.HAL_SDRAM_DMA_XferCpltCallback:0000000000000000 $t
+     /tmp/ccr4yMBw.s:26     .text.HAL_SDRAM_DMA_XferCpltCallback:0000000000000000 HAL_SDRAM_DMA_XferCpltCallback
+     /tmp/ccr4yMBw.s:42     .text.HAL_SDRAM_DMA_XferErrorCallback:0000000000000000 $t
+     /tmp/ccr4yMBw.s:49     .text.HAL_SDRAM_DMA_XferErrorCallback:0000000000000000 HAL_SDRAM_DMA_XferErrorCallback
+     /tmp/ccr4yMBw.s:64     .text.HAL_SDRAM_MspInit:0000000000000000 $t
+     /tmp/ccr4yMBw.s:71     .text.HAL_SDRAM_MspInit:0000000000000000 HAL_SDRAM_MspInit
+     /tmp/ccr4yMBw.s:86     .text.HAL_SDRAM_Init:0000000000000000 $t
+     /tmp/ccr4yMBw.s:93     .text.HAL_SDRAM_Init:0000000000000000 HAL_SDRAM_Init
+     /tmp/ccr4yMBw.s:171    .text.HAL_SDRAM_MspDeInit:0000000000000000 $t
+     /tmp/ccr4yMBw.s:178    .text.HAL_SDRAM_MspDeInit:0000000000000000 HAL_SDRAM_MspDeInit
+     /tmp/ccr4yMBw.s:193    .text.HAL_SDRAM_DeInit:0000000000000000 $t
+     /tmp/ccr4yMBw.s:200    .text.HAL_SDRAM_DeInit:0000000000000000 HAL_SDRAM_DeInit
+     /tmp/ccr4yMBw.s:238    .text.HAL_SDRAM_RefreshErrorCallback:0000000000000000 $t
+     /tmp/ccr4yMBw.s:245    .text.HAL_SDRAM_RefreshErrorCallback:0000000000000000 HAL_SDRAM_RefreshErrorCallback
+     /tmp/ccr4yMBw.s:260    .text.HAL_SDRAM_IRQHandler:0000000000000000 $t
+     /tmp/ccr4yMBw.s:267    .text.HAL_SDRAM_IRQHandler:0000000000000000 HAL_SDRAM_IRQHandler
+     /tmp/ccr4yMBw.s:305    .text.HAL_SDRAM_Read_8b:0000000000000000 $t
+     /tmp/ccr4yMBw.s:312    .text.HAL_SDRAM_Read_8b:0000000000000000 HAL_SDRAM_Read_8b
+     /tmp/ccr4yMBw.s:391    .text.HAL_SDRAM_Write_8b:0000000000000000 $t
+     /tmp/ccr4yMBw.s:398    .text.HAL_SDRAM_Write_8b:0000000000000000 HAL_SDRAM_Write_8b
+     /tmp/ccr4yMBw.s:491    .text.HAL_SDRAM_Read_16b:0000000000000000 $t
+     /tmp/ccr4yMBw.s:498    .text.HAL_SDRAM_Read_16b:0000000000000000 HAL_SDRAM_Read_16b
+     /tmp/ccr4yMBw.s:577    .text.HAL_SDRAM_Write_16b:0000000000000000 $t
+     /tmp/ccr4yMBw.s:584    .text.HAL_SDRAM_Write_16b:0000000000000000 HAL_SDRAM_Write_16b
+     /tmp/ccr4yMBw.s:677    .text.HAL_SDRAM_Read_32b:0000000000000000 $t
+     /tmp/ccr4yMBw.s:684    .text.HAL_SDRAM_Read_32b:0000000000000000 HAL_SDRAM_Read_32b
+     /tmp/ccr4yMBw.s:770    .text.HAL_SDRAM_Write_32b:0000000000000000 $t
+     /tmp/ccr4yMBw.s:777    .text.HAL_SDRAM_Write_32b:0000000000000000 HAL_SDRAM_Write_32b
+     /tmp/ccr4yMBw.s:890    .text.HAL_SDRAM_Read_DMA:0000000000000000 $t
+     /tmp/ccr4yMBw.s:897    .text.HAL_SDRAM_Read_DMA:0000000000000000 HAL_SDRAM_Read_DMA
+     /tmp/ccr4yMBw.s:987    .text.HAL_SDRAM_Read_DMA:0000000000000048 $d
+     /tmp/ccr4yMBw.s:993    .text.HAL_SDRAM_Write_DMA:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1000   .text.HAL_SDRAM_Write_DMA:0000000000000000 HAL_SDRAM_Write_DMA
+     /tmp/ccr4yMBw.s:1098   .text.HAL_SDRAM_Write_DMA:0000000000000050 $d
+     /tmp/ccr4yMBw.s:1104   .text.HAL_SDRAM_WriteProtection_Enable:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1111   .text.HAL_SDRAM_WriteProtection_Enable:0000000000000000 HAL_SDRAM_WriteProtection_Enable
+     /tmp/ccr4yMBw.s:1158   .text.HAL_SDRAM_WriteProtection_Disable:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1165   .text.HAL_SDRAM_WriteProtection_Disable:0000000000000000 HAL_SDRAM_WriteProtection_Disable
+     /tmp/ccr4yMBw.s:1212   .text.HAL_SDRAM_SendCommand:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1219   .text.HAL_SDRAM_SendCommand:0000000000000000 HAL_SDRAM_SendCommand
+     /tmp/ccr4yMBw.s:1282   .text.HAL_SDRAM_ProgramRefreshRate:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1289   .text.HAL_SDRAM_ProgramRefreshRate:0000000000000000 HAL_SDRAM_ProgramRefreshRate
+     /tmp/ccr4yMBw.s:1335   .text.HAL_SDRAM_SetAutoRefreshNumber:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1342   .text.HAL_SDRAM_SetAutoRefreshNumber:0000000000000000 HAL_SDRAM_SetAutoRefreshNumber
+     /tmp/ccr4yMBw.s:1388   .text.HAL_SDRAM_GetModeStatus:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1395   .text.HAL_SDRAM_GetModeStatus:0000000000000000 HAL_SDRAM_GetModeStatus
+     /tmp/ccr4yMBw.s:1422   .text.HAL_SDRAM_GetState:0000000000000000 $t
+     /tmp/ccr4yMBw.s:1429   .text.HAL_SDRAM_GetState:0000000000000000 HAL_SDRAM_GetState
 
 UNDEFINED SYMBOLS
 FMC_SDRAM_Init
@@ -2785,7 +2785,7 @@ FMC_SDRAM_Timing_Init
 FMC_SDRAM_DeInit
 HAL_DMA_Start_IT
 FMC_SDRAM_WriteProtection_Enable
-ARM GAS  /tmp/ccLYLNGj.s 			page 48
+ARM GAS  /tmp/ccr4yMBw.s 			page 48
 
 
 FMC_SDRAM_WriteProtection_Disable
